@@ -1,7 +1,7 @@
 function logIn(/* usuario,password */) {
     while (true) {
-        var usuario = prompt("Ingrese su usuario", usuario)
-        var password = prompt("Ingrese password", password);
+        let usuario = prompt("Ingrese su usuario", usuario)
+        let password = prompt("Ingrese password", password);
         if (usuario == '' || password == '' || usuario == null || password == null) {
             alert("Los campos no pueden estar vacio, intente nuevamente")
         }
@@ -13,7 +13,7 @@ function logIn(/* usuario,password */) {
 }
 
 function seleccionCompra() {
-    var selection = prompt("¿Qué esta buscando? Presione 1 para componentes -  2 para servicios", selection)
+    let selection = prompt("¿Qué esta buscando? Presione 1 para componentes -  2 para servicios", selection)
     if (selection == 1) {
         componente();
     } else {
@@ -59,8 +59,8 @@ function componente() {
 }
 
 function precioProducto(prod) {
-    var cantidad = prompt("Cuantos desea?", cantidad)
-    var final = (cantidad * prod)
+    let cantidad = prompt("Cuantos desea?", cantidad)
+    let final = (cantidad * prod)
     console.log("El precio a pagar es:", final);
 }
 
@@ -91,8 +91,8 @@ function servicio() {
 }
 
 function precioProducto(serv) {
-    var cantidad = prompt("Cuantos ordenadores son?", cantidad)
-    var final = (cantidad * serv)
+    let cantidad = prompt("Cuantos ordenadores son?", cantidad)
+    let final = (cantidad * serv)
     console.log("El precio a pagar es:", final);
 }
 
