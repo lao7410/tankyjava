@@ -1,7 +1,7 @@
 function logIn(/* usuario,password */) {
     while (true) {
-        let usuario = prompt("Ingrese su usuario", usuario)
-        let password = prompt("Ingrese password", password);
+        let usuario = prompt("Ingrese su usuario")
+        let password = prompt("Ingrese password");
         if (usuario == '' || password == '' || usuario == null || password == null) {
             alert("Los campos no pueden estar vacio, intente nuevamente")
         }
