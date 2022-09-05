@@ -13,18 +13,14 @@ function logIn(/* usuario,password */) {
 }
 
 function seleccionCompra() {
-    let selection = prompt("¿Qué esta buscando? Presione 1 para componentes -  2 para servicios", selection)
+    let selection = prompt("¿Qué esta buscando? Presione 1 para componentes -  2 para servicios")
     if (selection == 1) {
         componente();
     } else {
-        while (true) {
-            if (selection == null || selection == '') {
-                alert("Usted no selecciono ninguna opcion. Debe volver a cargar la pagina para iniciar nuevamente")
-                break
-            }
+        if (selection == null || selection == '' || selection !== 2) {
+            alert("Usted no selecciono ninguna opcion. Debe volver a cargar la pagina para iniciar nuevamente")
         }
-
-    } servicio();
+    } servicio()
 }
 
 function componente() {
