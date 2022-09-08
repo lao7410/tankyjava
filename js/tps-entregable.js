@@ -1,3 +1,11 @@
+function agregarUsuario() {
+    let usuario = prompt("Ingrese su usuario")
+    let password = prompt("Ingrese su contraseña")
+    usrRegistrados.push(new Usuarios(usuario, password))
+    console.table(usrRegistrados)
+}
+
+
 function logIn(/* usuario,password */) {
     while (true) {
         let usuario = prompt("Ingrese su usuario")
@@ -91,6 +99,8 @@ function precioProducto(serv) {
     let final = (cantidad * serv)
     console.log("El precio a pagar es:", final);
 }
+
+
 
 
 

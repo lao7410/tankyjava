@@ -1,3 +1,8 @@
+const usrRegistrados = []
+
+
+const creoID = ()=> parseInt(Math.random() * 10000)
+
 /* function Producto (nombre, apellido, edad){
     this.nombre=nombre
     this.apellido=apellido
@@ -6,6 +11,13 @@
 
 const producto1=new Producto ("","","")
 const prducto2=new Producto("","","") */
+
+class Usuarios {
+    constructor(usuario, password) {
+        this.usuario = usuario;
+        this.password = password;
+    }
+}
 
 class Producto {
     constructor(nombre, precio, stock) {
@@ -24,3 +36,4 @@ class Producto {
 const producto1 = new Producto("Macbook Air 13 M1", 1200, 45)
 const producto2 = new Producto("Macbook Pro 14 M1", 1900, 30)
 const producto3 = new Producto("iMac", 2000, 11)
+
