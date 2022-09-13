@@ -101,6 +101,38 @@ function precioProducto(serv) {
 }
 
 
+// Interactuar con HTML - Modificar lista de producto dentro de carrito
 
+/* function agregarProducto() {
+    const tabla = document.getElementById("tabla")
+    let filaProducto = 
+} */
 
+function cargaFilaServicios(){ //falta terminar
+    let fila = ""
+        servicios.forEach(servicio => { 
+            fila = `<tr>
+                        <td>${servicio.id}</td>
+                        <td>${servicio.nombre}</td>
+                        <td>${servicio.importe}</td>
+                        <td>${servicio.precioProductoxhs()}</td>
 
+                    </tr>`
+                    tabla.innerHTML += fila
+        })
+}
+
+function cargarProductos(){
+    debugger
+    let fila = ""
+        productos.forEach(producto => {
+            fila =`<tr>
+                    <td>${producto.id}</td>
+                    <td>${producto.nombre}</td>
+                    <td>${producto.importe}</td>
+                    <td>${producto.precioFinal()}</td>        
+            </tr>`
+            tabla.innerHTML += fila
+    })
+
+}
