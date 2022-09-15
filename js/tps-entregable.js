@@ -108,7 +108,7 @@ function precioProducto(serv) {
     let filaProducto = 
 } */
 
-function cargaFilaServicios(){ //falta terminar
+/* function cargaFilaServicios(){ //falta terminar
     let fila = ""
         servicios.forEach(servicio => { 
             fila = `<tr>
@@ -120,9 +120,9 @@ function cargaFilaServicios(){ //falta terminar
                     </tr>`
                     tabla.innerHTML += fila
         })
-}
+} */
 
-function cargarProductos(){
+/* function cargarProductos(){
     debugger
     let fila = ""
         productos.forEach(producto => {
@@ -135,4 +135,8 @@ function cargarProductos(){
             tabla.innerHTML += fila
     })
 
-}
+} */
+
+
+//-------------------------------------------------------------------//
+

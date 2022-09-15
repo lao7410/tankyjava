@@ -33,9 +33,9 @@ class Producto {
         this.categoria = categoria
     }
     precioFinal() {
-        return '$' + parseFloat ((this.importe + IVA).tofixed(2))
+        return '$' + parseFloat((this.importe + IVA).tofixed(2))
     }
-    
+
 }
 
 class Servicio {
@@ -82,3 +82,32 @@ function generadorDeProductos() {
 const producto2 = new Producto("Macbook Pro 14 M1", 1900, 30)
 const producto3 = new Producto("iMac", 2000, 11)
  */
+
+/* --------------------------tp entregable 3----------------------------------------------- */
+
+const btnAplicar = document.querySelector("#btnAplicar")
+
+function aplicar() {
+    alert("La seleccion de servicio y horas se aplico correctamente")
+}
+
+// btnAplicar.addEventListener("click", aplicar) 
+
+btnAplicar.addEventListener("click", () => {
+    aplicar()
+})
+
+const inputServicio = document.querySelector("#inputServicio")
+const inputHs = document.querySelector("#inputHs")
+
+inputHs.addEventListener("focus", () => inputHs.className = "foco-en-input")
+inputHs.addEventListener("blur", () => inputHs.className = "")
+
+inputHs.addEventListener("focus", () => inputServicio.className = "foco-en-input")
+inputHs.addEventListener("blur", () => inputServicio.className = "")
+
+const inputs = document.querySelectorAll("input")
+const btnConfirmar =document.querySelector("#btnConfirmar")
+
+
+btnConfirmar.addEventListener("mousemove", ()=> btnPrueba.title = "MUEVO EL MOUSE")

@@ -1,0 +1,33 @@
+/* body{
+    background-color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+
+button.enter{
+    background-color: aqua !important; 
+    color: blueviolet;
+}
+
+.foco_imput{
+    border-color: burlywood;
+    background-color: rgb(133, 96, 59);
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ 
+.button-delete {
+    background-color: darkred !important;
+    color: white !important;
+}
+
+.button-grey {
+    background-color: slategray !important;
+    color: white !important;
+}
