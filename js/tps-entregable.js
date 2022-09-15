@@ -140,3 +140,32 @@ function precioProducto(serv) {
 
 //-------------------------------------------------------------------//
 
+/* --------------------------tp entregable 3----------------------------------------------- */
+
+const btnAplicar = document.querySelector("#btnAplicar")
+
+function aplicar() {
+    alert("La seleccion de servicio y horas se aplico correctamente")
+}
+
+// btnAplicar.addEventListener("click", aplicar) 
+
+btnAplicar.addEventListener("click", () => {
+    aplicar()
+})
+
+const inputServicio = document.querySelector("#inputServicio")
+const inputHs = document.querySelector("#inputHs")
+
+inputHs.addEventListener("focus", () => inputHs.className = "foco-en-input")
+inputHs.addEventListener("blur", () => inputHs.className = "")
+
+inputHs.addEventListener("focus", () => inputServicio.className = "foco-en-input")
+inputHs.addEventListener("blur", () => inputServicio.className = "")
+
+const inputs = document.querySelectorAll("input")
+const btnConfirmar =document.querySelector("#btnConfirmar")
+
+
+btnConfirmar.addEventListener("mousemove", ()=> btnPrueba.title = "MUEVO EL MOUSE")
+
