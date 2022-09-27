@@ -142,15 +142,15 @@ function precioProducto(serv) {
 
 /* --------------------------tp entregable 3----------------------------------------------- */
 
-const btnAplicar = document.querySelector("#btnAplicar")
+/* const btnAplicar = document.querySelector("#btnAplicar")
 
 function aplicar() {
     alert("La seleccion de servicio y horas se aplico correctamente")
-}
+} */
 
 // btnAplicar.addEventListener("click", aplicar) 
 
-btnAplicar.addEventListener("click", () => {
+/* btnAplicar.addEventListener("click", () => {
     aplicar()
 })
 
@@ -167,5 +167,5 @@ const inputs = document.querySelectorAll("input")
 const btnConfirmar =document.querySelector("#btnConfirmar")
 
 
-btnConfirmar.addEventListener("mousemove", ()=> btnPrueba.title = "MUEVO EL MOUSE")
+btnConfirmar.addEventListener("mousemove", ()=> btnPrueba.title = "MUEVO EL MOUSE") */
 

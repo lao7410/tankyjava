@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="../tankyrey/js/tps-entregable.js"></script>
-    <script src="../tankyrey/js/class-constantes-variables.js"></script>
+    <!-- <script defer src="../tankyrey/js/tps-entregable.js"></script> -->
+    <!-- <script src="../tankyrey/js/class-constantes-variables.js"></script> -->
+    <script defer src="preentrega2.js"></script>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
@@ -17,76 +18,30 @@
 </head>
 
 <body>
-    <h1>CARGA DE SERVICIOS</h1>
-    <form action="" autocomplete="off" method="POST">
-        <input type="text" id="inputServicio" placeholder="Seleccione el servicio" tabindex="1">
-        <input type="number" id="inputHs"readonly placeholder="Cuantas hs desea contratar" tabindex="2">
-        <input type="number" id="inputID" readonly placeholder="ID del servicio" tabindex="3">
-    </form>
-    <button type="submit" id="btnAplicar">APLICAR</button>
-    <button id="btnConfirmar">CONFIRMAR</button>
-
-
-
-
-    <!-- <h2>TITULO PRINCIPAL</h2>
-
-    <h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iure quis deleniti voluptatum, odio
-            quisquam quasi maxime id ea dicta nostrum ratione alias vero tempore autem, numquam debitis distinctio
-            praesentium.
-            Itaque tempore numquam expedita labore ad iure, atque nesciunt at nobis nulla corporis eaque facilis minima
-            sed, ipsam assumenda libero, hic voluptas? Exercitationem, maiores qui nesciunt fuga nostrum incidunt quis!
-            Nam provident vitae ducimus, totam deleniti explicabo laborum nemo rem optio necessitatibus accusantium ipsa
-            cupiditate ullam similique esse quasi vero officiis eveniet facere rerum ex illum laboriosam illo
-            consequatur! Ducimus.
-            Nulla iusto ex laboriosam aperiam enim sapiente, officiis molestias exercitationem, eius, saepe quis ducimus
-            itaque error! Suscipit nesciunt quaerat totam provident? Harum veritatis soluta quas maxime eaque vel
-            officia. Iste.
-        </p>
-    </h2>
-
-    <tbody id="tabla">
-         <tr>
-            <td>1234</td>
-            <td>DESCRIPCION DE MI PRODUCTO</td>
-            <td>1000.00</td>
-            <td>1210.00</td>
-        </tr>
-        <tr>
-            <td>1234</td>
-            <td>DESCRIPCION DE MI PRODUCTO</td>
-            <td>1000.00</td>
-            <td>1210.00</td>
-        </tr>
-        <tr>
-            <td>1234</td>
-            <td>DESCRIPCION DE MI PRODUCTO</td>
-            <td>1000.00</td>
-            <td>1210.00</td>
-        </tr>
-        <tr>
-            <td>1234</td>
-            <td>DESCRIPCION DE MI PRODUCTO</td>
-            <td>1000.00</td>
-            <td>1210.00</td>
-        </tr> -->
-    <!--     </tbody>
-    <div>
-
+    <h1 class="center separador">PRODUCTOS Y SERVICIOS</h1>
+    <div class="div-cotizador">
+        <h2 class="center separador">SELECCIÓN DE SERVICIOS</h2>
+        <label for="Servicio">Selección</label>
+        <select id="Servicio">
+            <option selected disabled>...</option>
+        </select>
+        <label for="Usuario">Usuario Final</label>
+        <select id="Usuario">
+            <option selected disabled>...</option>
+        </select>
+        <label for="cantidad">Ingresa cantidad:</label>
+        <input type="number" id="cantidad" value="1" min="1" max="24">
+        <div class="center separador">
+            <button class="button button-outline">CALCULAR</button>
+        </div>
+        <div class="center separador">
+            <p class="importe">Precio: $ <span>0.00</span><span class="guardar ocultar" title="Enviar por Email">💨</span>
+            </p>
+        </div>
     </div>
-
-    <h3>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam accusamus reprehenderit esse ut repellat
-        repudiandae dolore natus praesentium provident est architecto rem, amet velit doloremque quos eveniet quo vel
-        corporis!
-        Dolor animi perspiciatis eos incidunt hic doloribus nihil nisi expedita alias illum esse harum, dicta similique?
-        Quod assumenda expedita magnam, facere modi autem esse aperiam! Quibusdam quia nisi consectetur sequi.
-    </h3> -->
-    -->
-
 </body>
+
+</html>
 
 <footer>
 
