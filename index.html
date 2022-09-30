@@ -20,7 +20,7 @@
 <body>
     <h1 class="center separador">PRODUCTOS Y SERVICIOS</h1>
     <div class="div-cotizador">
-        <h2 class="center separador">SELECCIÓN DE SERVICIOS</h2>
+        <h2 class="center separador">SELECCIÓN DE SERVICIOS </h2>
         <label for="Servicio">Selección</label>
         <select id="Servicio">
             <option selected disabled>...</option>
@@ -35,10 +35,35 @@
             <button class="button button-outline">CALCULAR</button>
         </div>
         <div class="center separador">
-            <p class="importe">Precio: $ <span>0.00</span><span class="guardar ocultar" title="Enviar por Email">💨</span>
+            <p class="importe">Precio: $ <span>0.00</span><span class="guardar ocultar" title="Enviar por Email">📩</span>
             </p>
         </div>
     </div>
+
+    <article>
+        <h1 id="titulo">Productos</h1>
+        <p id="parrafo">Listado de productos disponibles:</p>
+        <div>
+            <span><input type="search" id="filtroProducto" placeholder="Ingresa parte del nombre del producto a buscar"></span>
+        </div>        
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>DESCRIPCION</th>
+                    <th>IMPORTE</th>
+                    <th>FINAL</th>
+                </tr>
+            </thead>
+            <tbody id="tabla">
+
+            </tbody>
+        </table>
+        <footer>
+            <button disabled>LISTAR PRODUCTOS</button>
+            <button disabled>AGREGAR PRODUCTO</button>
+        </footer>
+    </article>
 </body>
 
 </html>
