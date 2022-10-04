@@ -20,7 +20,14 @@ class Calculadora {
     }
 }
 
-
+const unerrorgrande = () => { //xq mierda no funciona!!!!!!!!!!!!!!!
+    Swal.fire({
+        icon: 'war',
+        title: 'Oops...',
+        text: 'Something went wrong!',
+        footer: '<a href="">Why do I have this issue?</a>'
+      })
+}
 
 //DOM
 const Servicio = document.querySelector("#Servicio")
@@ -107,7 +114,7 @@ const realizarCalculo = ()=> {
               btnEnviar.classList.remove("ocultar") */
     } else {
        /*  alert("🚩🚩🚩RELLENAR TODOS LOS CAMPOS🚩🚩🚩") */
-        alertamsj ("rellenar los campos","warning ")
+       unerrorgrande ("rellenar los campos","warning ")
         
     }
 }
@@ -233,11 +240,3 @@ function ordenarProductos() {
 // INCORPORANDO LIBRERIAS
 
 
-const unerrorgrande = () => { //xq mierda no funciona!!!!!!!!!!!!!!!
-    Swal.fire({
-        icon: 'war',
-        title: 'Oops...',
-        text: 'Something went wrong!',
-        footer: '<a href="">Why do I have this issue?</a>'
-      })
-}
