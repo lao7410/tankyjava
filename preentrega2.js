@@ -20,6 +20,8 @@ class Calculadora {
     }
 }
 
+
+
 //DOM
 const Servicio = document.querySelector("#Servicio")
 const Usuario = document.querySelector("#Usuario")
@@ -85,7 +87,8 @@ cargarCombo(Servicio, datosServicio)
 cargarCombo(Usuario, datosUsuario)
 
 const datosCompletos = ()=> { 
-    if (Servicio.value !== "..." && Usuario.value !== "..." && parseInt(cantidad.value) && cantidad.value > 0 && cantidad.value <= 24) {
+    
+     if (Servicio.value !== "..." && Usuario.value !== "..." && parseInt(cantidad.value) && cantidad.value > 0 && cantidad.value <= 24) {
         return true
     } else {
         return false
@@ -94,6 +97,7 @@ const datosCompletos = ()=> {
 
 const realizarCalculo = ()=> {
     if (datosCompletos()) {
+        debugger
         const cotizacion = new Calculadora(cantidad.value, Servicio.value, Usuario.value, manoDeObra)
             importe.innerText = cotizacion.calcular()
             btnEnviar.classList.remove("ocultar")
@@ -102,7 +106,9 @@ const realizarCalculo = ()=> {
               importe.innerText = seguro.cotizar()
               btnEnviar.classList.remove("ocultar") */
     } else {
-        alert("🚩🚩🚩RELLENAR TODOS LOS CAMPOS🚩🚩🚩")
+       /*  alert("🚩🚩🚩RELLENAR TODOS LOS CAMPOS🚩🚩🚩") */
+        alertamsj ("rellenar los campos","warning ")
+        
     }
 }
 
@@ -222,4 +228,16 @@ function ordenarProductos() {
         return 0
     })
     console.table(productos)
+}
+
+// INCORPORANDO LIBRERIAS
+
+
+const unerrorgrande = () => { //xq mierda no funciona!!!!!!!!!!!!!!!
+    Swal.fire({
+        icon: 'war',
+        title: 'Oops...',
+        text: 'Something went wrong!',
+        footer: '<a href="">Why do I have this issue?</a>'
+      })
 }
