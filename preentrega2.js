@@ -20,12 +20,13 @@ class Calculadora {
     }
 }
 
-const unerrorgrande = () => { //xq mierda no funciona!!!!!!!!!!!!!!!
+const msjalerta = (msj,icono) => { 
     Swal.fire({
-        icon: 'war',
-        title: 'Oops...',
-        text: 'Something went wrong!',
-        footer: '<a href="">Why do I have this issue?</a>'
+        icon: icono,
+        title: msj,
+        confirmButtonAriaLabel: 'Thumbs up, great!'
+        /* text: 'Something went wrong!',
+        footer: '<a href="">Why do I have this issue?</a>' */
       })
 }
 
@@ -114,7 +115,7 @@ const realizarCalculo = ()=> {
               btnEnviar.classList.remove("ocultar") */
     } else {
        /*  alert("🚩🚩🚩RELLENAR TODOS LOS CAMPOS🚩🚩🚩") */
-       unerrorgrande ("rellenar los campos","warning ")
+       msjalerta ("Rellenar los campos","warning ")
         
     }
 }
@@ -128,7 +129,7 @@ const enviarPorEmail = ()=> {
         Importe: importe.innerText
     }
     localStorage.setItem("UltimaCotizacion", JSON.stringify(cotizacion))
-    alert("✅ Cotización enviada. ¡Muchas gracias por elegirnos!")
+    msjalerta("Cotización enviada. ¡Muchas gracias por elegirnos!",)
     btnEnviar.classList.add("ocultar")
 }
 
@@ -181,7 +182,8 @@ function buscarProducto() {
     if (resultado !== undefined) {
         console.log(resultado)
     } else {
-        console.warn("No se encontró un elemento coincidente.")
+        /* console.warn("No se encontró un elemento coincidente.") */
+        msjalerta("No se encontró un elemento coincidente.", "warning")
     }
     //let resultado = productos.find((producto)=> producto.nombre === "LENOVO IDEAPAD 13")
 }
