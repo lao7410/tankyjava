@@ -6,7 +6,7 @@
     "linea":"I3",
     "generacion":"11va",
     "socket":"LGA1200",
-    "caracteristicas":"GPU integrado : NoCaché : 6 MBCantidad de núcleos de CPU : 4Hilos : 8Tipos de memoria RAM soportadas : DDR4Cantidad de RAM soportada : 128GB ",
+    "caracteristicas":"GPU integrado : NoCaché : 6 MBCantidad de núcleos de CPU : 4Hilos : 8Tipos de memoria RAM soportadas : DDR4Cantidad de RAM soportada : 128GB "
 },
 {
     "id":"2",
@@ -15,7 +15,7 @@
     "linea":"I3",
     "generacion":"12va",
     "socket":"LGA1700",
-    "caracteristicas":"GPU integrado : Intel UHD Graphics 730Caché : 12 MBCantidad de núcleos de CPU : 4Hilos : 8Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128 GB",
+    "caracteristicas":"GPU integrado : Intel UHD Graphics 730Caché : 12 MBCantidad de núcleos de CPU : 4Hilos : 8Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128 GB"
 },
 {
     "id":"3",
@@ -24,7 +24,7 @@
     "linea":"I3",
     "generacion":"12va",
     "socket":"LGA1700",
-    "caracteristicas":"GPU integrado : NoCaché : 12 MBCantidad de núcleos de CPU : 4Hilos : 8Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128 GB",
+    "caracteristicas":"GPU integrado : NoCaché : 12 MBCantidad de núcleos de CPU : 4Hilos : 8Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128 GB"
 },
 {
     "id":"4",
@@ -33,7 +33,7 @@
     "linea":"I5",
     "generacion":"11va",
     "socket":"LGA1200",
-    "caracteristicas":"GPU integrado : Intel UHD Graphics 730Caché : 12 MBCantidad de núcleos de CPU : 6Hilos : 12Tipos de memoria RAM soportadas : DDR4Cantidad de RAM soportada : 128 GB",
+    "caracteristicas":"GPU integrado : Intel UHD Graphics 730Caché : 12 MBCantidad de núcleos de CPU : 6Hilos : 12Tipos de memoria RAM soportadas : DDR4Cantidad de RAM soportada : 128 GB"
 },
 {
     "id":"5",
@@ -42,7 +42,7 @@
     "linea":"I5",
     "generacion":"12va",
     "socket":"LGA1700",
-    "caracteristicas":"GPU integrado : NoCaché : 20 MBCantidad de núcleos de CPU : 10Hilos : 16Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128 GB",
+    "caracteristicas":"GPU integrado : NoCaché : 20 MBCantidad de núcleos de CPU : 10Hilos : 16Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128 GB"
 },
 {
     "id":"6",
@@ -51,7 +51,7 @@
     "linea":"I7",
     "generacion":"12va",
     "socket":"LGA1700",
-    "caracteristicas":"GPU integrado : Intel UHD Graphics 770Caché : 25 MBCantidad de núcleos de CPU : 12Hilos : 12Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128 GB",
+    "caracteristicas":"GPU integrado : Intel UHD Graphics 770Caché : 25 MBCantidad de núcleos de CPU : 12Hilos : 12Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128 GB"
 },
 {
     "id":"7",
@@ -60,6 +60,6 @@
     "linea":"I9",
     "generacion":"12va",
     "socket":"LGA1700",
-    "caracteristicas":"GPU integrado : NoCaché : 30 MBCantidad de núcleos de CPU : 16Hilos : 24Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128GB",
-},
-
+    "caracteristicas":"GPU integrado : NoCaché : 30 MBCantidad de núcleos de CPU : 16Hilos : 24Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128GB"
+}
+]
