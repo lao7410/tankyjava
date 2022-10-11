@@ -241,6 +241,25 @@ function ordenarProductos() {
 
 // INCORPORANDO FETCH 
 
+const contenedor = document.querySelector(".container")
+const URL = "../base_datos/productos.json"
 
 
+const mostrarError =()=>{
+    return `   <div class="error ocultar">
+                    <h2>¡Ups...!</h2>
+                    <img src="images/corcho-2.png">
+                    <p>🍷 No pudimos cargar la información.</p>
+                    <p>🍷 Por favor, intenta nuevamente en unos minutos.</p>
+                </div>`
+}
+
+const mostrarFicha =(contenido)=>{
+    return `<div class="cardo ocultar">
+              <div>
+                <p title="Nombre">Procesador</p>
+                <p class="label-bodega">Ruttini Wines</p>
+            </div>`
+    
+}
 
