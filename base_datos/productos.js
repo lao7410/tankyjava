@@ -2,11 +2,11 @@ const procesadores = [
     {
         id:1,
         categoria: "Procesadores",
-        marca: "Intel"
-        linea:"I3"
-        generacion:"11va"
-        socket:"LGA1200"
-        caracteristicas:"GPU integrado : NoCaché : 6 MBCantidad de núcleos de CPU : 4Hilos : 8Tipos de memoria RAM soportadas : DDR4Cantidad de RAM soportada : 128GB "
+        marca: "Intel",
+        linea:"I3",
+        generacion:"11va",
+        socket:"LGA1200",
+        caracteristicas:"GPU integrado : NoCaché : 6 MBCantidad de núcleos de CPU : 4Hilos : 8Tipos de memoria RAM soportadas : DDR4Cantidad de RAM soportada : 128GB ",
     },
     {
         id:"2",
