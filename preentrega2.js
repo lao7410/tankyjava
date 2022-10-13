@@ -242,7 +242,23 @@ function ordenarProductos() {
 // INCORPORANDO FETCH 
 
 const contenedor = document.querySelector(".container")
-const URL = "../base_datos/productos.json"
+const URL = "./base_datos/productos.json"
+let procesadores = []
+let contenidoHTML = ""
+
+const cargarContenido = async ()=>{
+    try{
+        const response =await fetch(URL)
+        const data= await response.json()
+        console.table(data)
+    }catch (error){
+
+    }finally{
+
+    }
+    
+    
+}
 
 
 const mostrarError =()=>{
