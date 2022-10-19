@@ -1,0 +1,73 @@
+const Products = [];
+const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+const setQuantity = () => {
+    const label = document.querySelector('#cart-quantity');
+    const total = cart.reduce((acc, item) => acc + item.quantity, 0);
+        if (total > 0) {
+            label.innerText = total;
+    }
+}
+
+const notification = (text) => {
+    Toastify({
+        text: text,
+        className: "info",
+        style: {
+            background: "#fff",
+            color: "#00a650"
+        }
+    }).showToast();
+}
+
+// click event is loaded to each button - events
+const loadEvents = () => {
+    // esta en el carrito
+    found.quantity++;
+    localStorage.setItem('cart', JSON.stringify(cart));
+    notification('Producto agregado con éxito!')
+}
+            
+{
+   const loadEvents = () =>
+        quantity: 1
+}
+cart.push(newProduct);
+
+localStorage.setItem('cart', JSON.stringify(cart));
+notification('Producto agregado con éxito!');
+                }
+            }
+
+
+setQuantity(cart);
+        })
+    }
+}
+const loadProducts = (Products) => {
+    let container = document.querySelector('#container');
+    for (const product of Products) {
+            let div = document.createElement('div');
+            div.setAttribute('class', 'card');
+            div.innerHTML = const loadProducts = (Products) =>
+            loadEvents();
+    
+}
+
+const getData = async () =>
+{
+    try
+    {
+        const response = await fetch('/data.json');
+        const data = await response.json();
+        loadProducts(data);
+        Products.push(...data);
+        setQuantity();
+    }
+    catch(e)
+    {
+        console.log(e);
+    }
+}
+
+getData();

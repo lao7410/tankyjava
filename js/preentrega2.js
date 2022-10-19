@@ -241,7 +241,7 @@ function ordenarProductos() {
 
 // INCORPORANDO FETCH 
 
-const contenedor = document.querySelector(".container")
+/* const contenedor = document.querySelector(".container")
 const URL = "./base_datos/productos.json"
 let procesadores = []
 let contenidoHTML = ""
@@ -277,5 +277,5 @@ const mostrarFicha =(contenido)=>{
                 <p class="label-bodega">Ruttini Wines</p>
             </div>`
     
-}
+} */
 
