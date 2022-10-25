@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "nombre": "Procesador Intel Core i3 10105 4.4 Ghz Comet Lake 1200",
+        "categoria": "Procesadores",
+        "marca": "Intel",
+        "linea": "I3",
+        "generacion": "11va",
+        "socket": "LGA1200",
+        "caracteristicas": "GPU integrado : NoCaché : 6 MBCantidad de núcleos de CPU : 4Hilos : 8Tipos de memoria RAM soportadas : DDR4Cantidad de RAM soportada : 128GB ",
+        "price": "5000.00",
+        "image":"../images/procesador-cpu-intel-i31.jpeg"
+    },
+    {
+        "id": 2,
+        "nombre":"Procesador Intel Core i3 12100 4.3 Ghz Alder Lake 1700",
+        "categoria": "Procesadores",
+        "marca": "Intel",
+        "linea": "I3",
+        "generacion": "12va",
+        "socket": "LGA1700",
+        "caracteristicas": "GPU integrado : Intel UHD Graphics 730Caché : 12 MBCantidad de núcleos de CPU : 4Hilos : 8Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128 GB",
+        "price": "2000.00",
+        "image":"../images/procesador-intel-i3-12gen_41939_1.jpeg"
+        
+    },
+    {
+        "id": 3,
+        "nombre":"Procesador Intel Core i3 12100F 4.3 Ghz Alder Lake 1700 Sin Gpu",
+        "categoria": "Procesadores",
+        "marca": "Intel",
+        "linea": "I3",
+        "generacion": "12va",
+        "socket": "LGA1700",
+        "caracteristicas": "GPU integrado : NoCaché : 12 MBCantidad de núcleos de CPU : 4Hilos : 8Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128 GB",
+        "price": "3000.00",
+        "image":"../images/Procesador-Intel-Core-i3-12100-4-Ghz.jpeg"
+    },
+    {
+        "id": 4,
+        "nombre":"Procesador Intel Core i5 11400 4.4 Ghz Rocket Lake 1200",
+        "categoria": "Procesadores",
+        "marca": "Intel",
+        "linea": "I5",
+        "generacion": "11va",
+        "socket": "LGA1200",
+        "caracteristicas": "GPU integrado : Intel UHD Graphics 730Caché : 12 MBCantidad de núcleos de CPU : 6Hilos : 12Tipos de memoria RAM soportadas : DDR4Cantidad de RAM soportada : 128 GB",
+        "price": "4000.00",
+        "image":"../images/procesador-intel-i5-11gen.jpeg"
+    },
+    {
+        "id": 5,
+        "nombre":"Procesador Intel Core i5 12400 4.4 Ghz Alder Lake 1700",
+        "categoria": "Procesadores",
+        "marca": "Intel",
+        "linea": "I5",
+        "generacion": "12va",
+        "socket": "LGA1700",
+        "caracteristicas": "GPU integrado : NoCaché : 20 MBCantidad de núcleos de CPU : 10Hilos : 16Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128 GB",
+        "price": "5000.00",
+        "image":"../images/procesador-cpu-intel-i5_12gen.jpeg"
+    },
+    {
+        "id": 6,
+        "nombre":"Procesador Intel Core i7 11700 4.9 Ghz Rocket Lake 1200",
+        "categoria": "Procesadores",
+        "marca": "Intel",
+        "linea": "I7",
+        "generacion": "12va",
+        "socket": "LGA1700",
+        "caracteristicas": "GPU integrado : Intel UHD Graphics 770Caché : 25 MBCantidad de núcleos de CPU : 12Hilos : 12Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128 GB",
+        "price": "6000.00",
+        "image":"../images/procesador-intel-i7-11gen.jpeg"
+    },
+    {
+        "id": 7,
+        "nombre":"Procesador Intel Core i9 12900KF 5.2 Ghz Alder Lake 1700 Sin Cooler Sin Gpu",
+        "categoria": "Procesadores",
+        "marca": "Intel",
+        "linea": "I9",
+        "generacion": "12va",
+        "socket": "LGA1700",
+        "caracteristicas": "GPU integrado : NoCaché : 30 MBCantidad de núcleos de CPU : 16Hilos : 24Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128GB",
+        "price": "79000.00",
+        "image":"../images/procesador-intel-i9-12gen.jpeg"
+    },
+    {
+        "id": 8,
+        "nombre":"Procesador Intel Core i9 12900KF 5.2 Ghz Alder Lake 1700 Sin Cooler Sin Gpu",
+        "categoria": "Procesadores",
+        "marca": "Intel",
+        "linea": "I9",
+        "generacion": "12va",
+        "socket": "LGA1700",
+        "caracteristicas": "GPU integrado : NoCaché : 30 MBCantidad de núcleos de CPU : 16Hilos : 24Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128GB",
+        "price": "70000.00",
+        "image":"../images/procesador-intel-i9-12gen.jpeg"
+    },    
+    {
+        "id": 9,
+        "nombre":"Procesador Intel Core i9 12900KF 5.2 Ghz Alder Lake 1700 Sin Cooler Sin Gpu",
+        "categoria": "Procesadores",
+        "marca": "Intel",
+        "linea": "I9",
+        "generacion": "12va",
+        "socket": "LGA1700",
+        "caracteristicas": "GPU integrado : NoCaché : 30 MBCantidad de núcleos de CPU : 16Hilos : 24Tipos de memoria RAM soportadas : DDR4, DDR5Cantidad de RAM soportada : 128GB",
+        "price": "158000.00",
+        "image":"../images/procesador-intel-i9-12gen.jpeg"
+    },
+    {
+        "id": 10,
+        "nombre":"Motherboard AM4 - Asus Rog Strix X570-E GAMING WIFI",
+        "categoria": "Motherboard",
+        "marca": "Asus",
+        "linea": "Game",
+        "generacion": "Am4",
+        "socket": "AM4",
+        "caracteristicas":"CI-E x16 : 3PCI-E x1 : 2PCI : NoD-SUB : NoDVI : NoHDMI : 1DisplayPort : 1Sonido : Realtek S1220A 7.1 Surround Sound High Definition Audio CODECRed : 1 x Intel 1Gb Ethernet + 1 x Realtek 2.5Gb EthernetPS/2 : No",
+        "price": "70300.00",
+        "image":"../images/Motherboard-AM4-Asus-Rog-Strix-X570-E-GAMING-WIFI_44277_1.jpeg"
+    },
+
+    {
+        "id": 11,
+        "nombre":"Motherboard 1200 11°Gen - Msi H510M-A PRO",
+        "categoria": "Motherboard",
+        "marca": "MSI",
+        "linea": "basic",
+        "generacion": "11va",
+        "socket": "LGA1200",
+        "caracteristicas": "Chipset : Intel H510Fuente : ATXMemoria : 2 x DIMM, Max. 64GB, DDR4 2133/ 2666/ 2933/ 3200 MHzPci-e x16 : 1Pci-e x1 : 1Pci : NoVga : 1Dvi : NoHdmi : 1DisplayPort : NoSonido : Realtek ALC897Red : 10/100/1000*1Ps2 : 1Usb traseros : 6 ( 2 x 3.2 + 4 x 2.0 )Usb internos : 4 ( 2 x 2.0 + 2 x 3.2 )Wifi : NoBluetooth : NoOptica : NoIluminacion : NoE-sata : NoLpt : NoCom : InternoSata : 4 x Sata 3M.2 : 1Raid : NoSLI : NoCrossfire : SiFormato : micro ATXDimensiones : 23.6 cm x 20.2 cm",
+        "price": "1200.00",
+        "image":"../images/MOTHER-Msi-H510M-APRO-1200-11Gen_41214_1.jpeg"
+    }
+    
+]

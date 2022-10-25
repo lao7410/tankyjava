@@ -1,3 +1,21 @@
+body{
+    overflow-x: hidden;
+    background-color: #ddd;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 1.5em;
+    border-bottom: 1px solid #000;
+}
+
+header a i{
+    font-size: 2.5em;
+    color: #000c;
+}
+
 #cart{
     height: auto;
     width: 100%;
@@ -36,7 +54,6 @@
 #cart #cartContainer img{
     width: 70px;
 }
-
 .button{
     
     outline: none;

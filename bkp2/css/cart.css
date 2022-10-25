@@ -1,3 +1,21 @@
+body{
+    overflow-x: hidden;
+    background-color: #ddd;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 1.5em;
+    border-bottom: 1px solid #000;
+}
+
+header a i{
+    font-size: 2.5em;
+    color: #000c;
+}
+
 #cart{
     height: auto;
     width: 100%;
@@ -31,19 +49,12 @@
     width: 250px;
     text-align:center;
     text-align: left;
-    margin-top: 55px;
 }
-#cart #cartContainer img{
-    width: 70px;
-}
-
 .button{
-    
     outline: none;
     border: none;
-    width: 70px;
-    max-width: 100px;
-    height: 70px;
+    width: 100%;
+    max-width: 200px;
     border: none;
     padding: 0.7em;
     background-color: #695CFE;

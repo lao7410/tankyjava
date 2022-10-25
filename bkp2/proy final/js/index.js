@@ -1,48 +1,51 @@
 const Products = [];
 const cart = JSON.parse(localStorage.getItem('cart')) || [];
-
-
-
-//Eventos Click
-const setQuantity = () => {
+const setQuantity = () =>
+{
     const label = document.querySelector('#cart-quantity');
     const total = cart.reduce((acc, item) => acc + item.quantity, 0);
-    if (total > 0) {
+    if(total > 0)
+    {
         label.innerText = total;
     }
 }
-const notification = (text) => {
+const notification = (text) =>
+{
     Toastify({
         text: text,
         className: "info",
         style: {
-            background: "#fff",
-            color: "#00a650"
+          background: "#fff",
+          color:"#00a650"
         }
-    }).showToast();
+      }).showToast();
 }
 
-// Click event
-const loadEvents = () => {
+// click event is loaded to each button - events
+const loadEvents = () =>
+{
     let buttons = document.querySelectorAll('.button');
-    for (const button of buttons) {
-        button.addEventListener('click', () => {
+    for (const button of buttons) 
+    {
+        button.addEventListener('click', ()=>{
             let found = cart.find(element => element.id == button.id);
-            if (found) {
+            if(found)
+            {
                 // esta en el carrito
                 found.quantity++;
                 localStorage.setItem('cart', JSON.stringify(cart));
                 notification('Producto agregado con éxito!')
             }
-            else {
+            else
+            {
                 let product = Products.find(element => element.id == button.id);
-                if (product) {
+                if(product)
+                {
                     let newProduct = {
-                        id: product.id,
-                        name: product.nombre,
+                        id:product.id,
+                        name: product.name,
                         price: product.price,
-                        line: product.linea,
-                        description: product.caracteristicas,
+                        description: product.description,
                         image: product.image,
                         quantity: 1
                     }
@@ -55,57 +58,41 @@ const loadEvents = () => {
         })
     }
 }
-// CARGA DINAMICA DE DATOS EN HTML- DOM
-const loadProducts = (Products) => {
+// dynamic loading of products - interaction with HTML
+const loadProducts = (Products) =>
+{
     let container = document.querySelector('#container');
-    for (const product of Products) {
+    for (const product of Products)
+    {   
         let div = document.createElement('div');
-        div.setAttribute('class', 'card', 'card-body');
+        div.setAttribute('class', 'card');
         div.innerHTML = `
             <img src="${product.image}" alt="${product.caracteristicas}">
-            <h2 class="card-title">${product.nombre}</h2>
-            <h4>${product.caracteristicas}</h4>
             <h3>${product.price}</h3>
+            <h4>${product.categoria}</h4>
+            <h4>${product.marca}</h4>
+            <h4>${product.linea}</h4>
             <button class="button" id="${product.id}">Agregar al carrito</button>
         `;
         container.appendChild(div);
     }
     loadEvents();
 }
-const getData = async () => {
-    try {
-        const response = await fetch('../base_datos/data.json');
+const getData = async () =>
+{
+    try
+    {
+        const response = await fetch('/data.json');
         const data = await response.json();
         loadProducts(data);
         Products.push(...data);
         setQuantity();
     }
-    catch (e) {
+    catch(e)
+    {
         console.log(e);
     }
 }
+
 getData();
-
-//filtrar
-const searchProduct=()=>{
-    debugger
-    const input = document.getElementById('filter').value.toUpperCase()
-    const cardContainer = document.getElementById('container')
-    const cards = cardContainer.getElementsByClassName('card')
-    
-    for(let i=0; i < cards.length; i++){
-        let title = cards [i].querySelector("h2.card-title")
-        /* console.log(title) */
-        if(title.innerText.toUpperCase().indexOf(input) > -1) {
-            cards[i].getElementsByClassName.display="";
-
-        }else {
-            cards[i].getElementsByClassName.display="none";
-        }
-    }
-    /* document.querySelector('#filter') */
-
-
-}
-
 
