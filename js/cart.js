@@ -73,7 +73,7 @@ const updateCart = (cart) => {
     `;
     div.innerHTML += ` <button class="button" id="checkout">Finalizar compra </button>`;
     cartContainer.appendChild(div);
-    loadEvents(total);
+    loadEvents(total*IVA);
 }
 
 const shopCart = JSON.parse(localStorage.getItem('cart')) || [];
